@@ -1,0 +1,130 @@
+<mxfile host="app.diagrams.net" modified="2024-04-04T23:35:21.654Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" etag="7V1iNjs9yVIHhTfJJM0I" version="24.0.7" type="github">
+  <diagram name="Página-1" id="4YAAuBO78eNctZZeQPS8">
+    <mxGraphModel dx="1000" dy="530" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="Tg9UnvtgQgCjBzvrB2fc-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Tg9UnvtgQgCjBzvrB2fc-1" target="Tg9UnvtgQgCjBzvrB2fc-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Tg9UnvtgQgCjBzvrB2fc-1" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="150" width="230" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="Tg9UnvtgQgCjBzvrB2fc-2" value="Banco de dados&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn2.iconfinder.com/data/icons/whcompare-isometric-web-hosting-servers/50/database-128.png" vertex="1" parent="1">
+          <mxGeometry x="364" y="150" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="Tg9UnvtgQgCjBzvrB2fc-3" value="SQL Server&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/databases/Azure_Database_MySQL_Server.svg;" vertex="1" parent="1">
+          <mxGeometry x="490" y="168" width="48" height="64" as="geometry" />
+        </mxCell>
+        <mxCell id="Tg9UnvtgQgCjBzvrB2fc-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.75;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Tg9UnvtgQgCjBzvrB2fc-5" target="Tg9UnvtgQgCjBzvrB2fc-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Tg9UnvtgQgCjBzvrB2fc-5" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="400" width="150" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="Tg9UnvtgQgCjBzvrB2fc-6" value="Servidor de Arquivos&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="image;html=1;image=img/lib/clip_art/computers/Server_Rack_128x128.png" vertex="1" parent="1">
+          <mxGeometry x="440" y="10" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Tg9UnvtgQgCjBzvrB2fc-8" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="340" width="230" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="Tg9UnvtgQgCjBzvrB2fc-9" value="Servidor de Aplicações&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="image;html=1;image=img/lib/clip_art/computers/Server_Rack_128x128.png" vertex="1" parent="1">
+          <mxGeometry x="364" y="360" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Tg9UnvtgQgCjBzvrB2fc-10" value="Wildfly&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="html=1;verticalLabelPosition=bottom;align=center;labelBackgroundColor=#ffffff;verticalAlign=top;strokeWidth=2;strokeColor=#0080F0;shadow=0;dashed=0;shape=mxgraph.ios7.icons.cup;" vertex="1" parent="1">
+          <mxGeometry x="498" y="375" width="52" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Tg9UnvtgQgCjBzvrB2fc-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" source="Tg9UnvtgQgCjBzvrB2fc-12" target="Tg9UnvtgQgCjBzvrB2fc-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Tg9UnvtgQgCjBzvrB2fc-12" value="Computador Escritório&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="sketch=0;aspect=fixed;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;fillColor=#00188D;shape=mxgraph.azure.computer" vertex="1" parent="1">
+          <mxGeometry x="200" y="435" width="50" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="Tg9UnvtgQgCjBzvrB2fc-13" value="Impressora Escritório&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="verticalLabelPosition=bottom;sketch=0;aspect=fixed;html=1;verticalAlign=top;strokeColor=none;align=center;outlineConnect=0;shape=mxgraph.citrix.printer;" vertex="1" parent="1">
+          <mxGeometry x="100" y="460" width="41" height="41" as="geometry" />
+        </mxCell>
+        <mxCell id="Tg9UnvtgQgCjBzvrB2fc-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="Tg9UnvtgQgCjBzvrB2fc-13" target="Tg9UnvtgQgCjBzvrB2fc-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Tg9UnvtgQgCjBzvrB2fc-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="Tg9UnvtgQgCjBzvrB2fc-16" target="Tg9UnvtgQgCjBzvrB2fc-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Tg9UnvtgQgCjBzvrB2fc-16" value="&lt;div&gt;Computador Caixa&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="sketch=0;aspect=fixed;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;fillColor=#00188D;shape=mxgraph.azure.computer" vertex="1" parent="1">
+          <mxGeometry x="182" y="330" width="50" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="Tg9UnvtgQgCjBzvrB2fc-17" value="Impressoa fiscal" style="verticalLabelPosition=bottom;sketch=0;aspect=fixed;html=1;verticalAlign=top;strokeColor=none;align=center;outlineConnect=0;shape=mxgraph.citrix.printer;" vertex="1" parent="1">
+          <mxGeometry x="80" y="364" width="41" height="41" as="geometry" />
+        </mxCell>
+        <mxCell id="Tg9UnvtgQgCjBzvrB2fc-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="Tg9UnvtgQgCjBzvrB2fc-17" target="Tg9UnvtgQgCjBzvrB2fc-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Tg9UnvtgQgCjBzvrB2fc-19" value="Máquina de Cartão&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="image;html=1;image=img/lib/clip_art/finance/Credit_Card_128x128.png" vertex="1" parent="1">
+          <mxGeometry x="90" y="260" width="40" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Tg9UnvtgQgCjBzvrB2fc-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="Tg9UnvtgQgCjBzvrB2fc-19" target="Tg9UnvtgQgCjBzvrB2fc-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Tg9UnvtgQgCjBzvrB2fc-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.98;exitY=0.02;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="Tg9UnvtgQgCjBzvrB2fc-22" target="Tg9UnvtgQgCjBzvrB2fc-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Tg9UnvtgQgCjBzvrB2fc-22" value="&lt;div&gt;Computador Açougue&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="sketch=0;aspect=fixed;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;fillColor=#00188D;shape=mxgraph.azure.computer" vertex="1" parent="1">
+          <mxGeometry x="210" y="550" width="50" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="Tg9UnvtgQgCjBzvrB2fc-24" value="Balança Açougue&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn1.iconfinder.com/data/icons/electronics-glyph-24/24/kitchen_scale_food_scale_weighing_scale_weight_machine_weight_scale-128.png" vertex="1" parent="1">
+          <mxGeometry x="65.5" y="549" width="70" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="Tg9UnvtgQgCjBzvrB2fc-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="Tg9UnvtgQgCjBzvrB2fc-24" target="Tg9UnvtgQgCjBzvrB2fc-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Tg9UnvtgQgCjBzvrB2fc-29" value="&lt;div&gt;Computador Padaria&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="sketch=0;aspect=fixed;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;fillColor=#00188D;shape=mxgraph.azure.computer" vertex="1" parent="1">
+          <mxGeometry x="304.5" y="651" width="50" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="Tg9UnvtgQgCjBzvrB2fc-30" value="Balança Padaria&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn1.iconfinder.com/data/icons/electronics-glyph-24/24/kitchen_scale_food_scale_weighing_scale_weight_machine_weight_scale-128.png" vertex="1" parent="1">
+          <mxGeometry x="160" y="650" width="70" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="Tg9UnvtgQgCjBzvrB2fc-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="Tg9UnvtgQgCjBzvrB2fc-30" target="Tg9UnvtgQgCjBzvrB2fc-29">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Tg9UnvtgQgCjBzvrB2fc-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.98;exitY=0.02;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.09;entryY=1.005;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="Tg9UnvtgQgCjBzvrB2fc-29" target="Tg9UnvtgQgCjBzvrB2fc-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Tg9UnvtgQgCjBzvrB2fc-36" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Tg9UnvtgQgCjBzvrB2fc-33" target="Tg9UnvtgQgCjBzvrB2fc-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Tg9UnvtgQgCjBzvrB2fc-33" value="Computador HortiFruti" style="sketch=0;aspect=fixed;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;fillColor=#00188D;shape=mxgraph.azure.computer" vertex="1" parent="1">
+          <mxGeometry x="430" y="574" width="50" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="Tg9UnvtgQgCjBzvrB2fc-34" value="Balança Hortifruti&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn1.iconfinder.com/data/icons/electronics-glyph-24/24/kitchen_scale_food_scale_weighing_scale_weight_machine_weight_scale-128.png" vertex="1" parent="1">
+          <mxGeometry x="410" y="670" width="70" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="Tg9UnvtgQgCjBzvrB2fc-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="Tg9UnvtgQgCjBzvrB2fc-34" target="Tg9UnvtgQgCjBzvrB2fc-33">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="445" y="644" />
+              <mxPoint x="410" y="644" />
+              <mxPoint x="410" y="596" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Tg9UnvtgQgCjBzvrB2fc-37" value="Computador Frios&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="sketch=0;aspect=fixed;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;fillColor=#00188D;shape=mxgraph.azure.computer" vertex="1" parent="1">
+          <mxGeometry x="590" y="550" width="50" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="Tg9UnvtgQgCjBzvrB2fc-38" value="Balança Frios&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn1.iconfinder.com/data/icons/electronics-glyph-24/24/kitchen_scale_food_scale_weighing_scale_weight_machine_weight_scale-128.png" vertex="1" parent="1">
+          <mxGeometry x="580" y="656" width="70" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="Tg9UnvtgQgCjBzvrB2fc-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="Tg9UnvtgQgCjBzvrB2fc-38" target="Tg9UnvtgQgCjBzvrB2fc-37">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="615" y="630" />
+              <mxPoint x="580" y="630" />
+              <mxPoint x="580" y="582" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Tg9UnvtgQgCjBzvrB2fc-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.935;entryY=1.037;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="Tg9UnvtgQgCjBzvrB2fc-37" target="Tg9UnvtgQgCjBzvrB2fc-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
