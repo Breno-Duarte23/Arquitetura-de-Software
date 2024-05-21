@@ -1,3 +1,10 @@
 /Builder.class
 /CarBuilder.class
 /CarManualBuilder.class
+/ClientBuilder.class
+/ContactBuilder.class
+/InternetContactBuilder.class
+/FullContactBuilder.class
+/InternetContact.class
+/ContatoInternetBuilder.class
+/PhoneContactBuilder.class

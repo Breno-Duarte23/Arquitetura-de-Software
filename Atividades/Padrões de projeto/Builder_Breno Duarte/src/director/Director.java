@@ -1,44 +1,18 @@
 package director;
-
 import builders.Builder;
-import cars.CarType;
-import components.Engine;
-import components.GPSNavigator;
-import components.Transmission;
-import components.TripComputer;
 
-/**
- * Diretor define a ordem das etapas de construção. Ele funciona com um objeto construtor
- * por meio da interface comum do Construtor. Portanto, pode não saber qual produto está
- * sendo construído.
- */
- 
 public class Director {
+    private Builder builder;
 
-    public void constructSportsCar(Builder builder) {
-        builder.setCarType(CarType.SPORTS_CAR);
-        builder.setSeats(2);
-        builder.setEngine(new Engine(3.0, 0));
-        builder.setTransmission(Transmission.SEMI_AUTOMATIC);
-        builder.setTripComputer(new TripComputer());
-        builder.setGPSNavigator(new GPSNavigator());
+    public Director(Builder builder) {
+        this.builder = builder;
     }
 
-    public void constructCityCar(Builder builder) {
-        builder.setCarType(CarType.CITY_CAR);
-        builder.setSeats(2);
-        builder.setEngine(new Engine(1.2, 0));
-        builder.setTransmission(Transmission.AUTOMATIC);
-        builder.setTripComputer(new TripComputer());
-        builder.setGPSNavigator(new GPSNavigator());
+    public void construirContato(String nome, String endereco, String telefone, String email) {
+        builder.construirContato(nome, endereco, telefone, email);
     }
 
-    public void constructSUV(Builder builder) {
-        builder.setCarType(CarType.SUV);
-        builder.setSeats(4);
-        builder.setEngine(new Engine(2.5, 0));
-        builder.setTransmission(Transmission.MANUAL);
-        builder.setGPSNavigator(new GPSNavigator());
+    public Object obterContato() {
+        return builder.obterContato();
     }
-    
 }

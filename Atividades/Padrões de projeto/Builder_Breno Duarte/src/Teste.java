@@ -1,40 +1,27 @@
-/**
- * Código adaptado do site https://refactoring.guru/pt-br/design-patterns/builder/java/example
- */
-
-import builders.CarBuilder;
-import builders.CarManualBuilder;
-import cars.Car;
-import cars.Manual;
 import director.Director;
+import builders.FullContactBuilder;
+import builders.InternetContactBuilder;
+import builders.PhoneContactBuilder;
 
-/**
- * Classe de demonstração. Tudo se junta aqui.
- */
+import components.FullContact;
+import components.InternetContact;
+import components.PhoneContact;
 
 public class Teste {
-
     public static void main(String[] args) {
-        Director director = new Director();
+        Director director = new Director(new InternetContactBuilder());
+        director.construirContato("Adriano", "", "", "Adriano@email.com");
+        InternetContact contatoInternet = (InternetContact) director.obterContato();
+        System.out.println(contatoInternet);
 
-        // Director obtém o objeto construtor concreto do cliente. 
-        // Isso porque o aplicativo sabe melhor 
-        // qual construtor usar para obter um produto específico.
-        CarBuilder builder = new CarBuilder();
-        director.constructSportsCar(builder);
+        director = new Director(new PhoneContactBuilder());
+        director.construirContato("Breno", "", "794864988", "");
+        PhoneContact contatoTelefone = (PhoneContact) director.obterContato();
+        System.out.println(contatoTelefone);
 
-        // O produto final geralmente é recuperado de um objeto construtor, pois 
-        // o Diretor não está ciente e não depende de construtores e 
-        // produtos concretos.
-        Car car = builder.getResult();
-        System.out.println("Carro construído: " + car.getCarType());        
-
-        CarManualBuilder manualBuilder = new CarManualBuilder();
-
-        // O diretor pode conhecer vários tipos de construção.
-        director.constructSportsCar(manualBuilder);
-        Manual carManual = manualBuilder.getResult();
-        System.out.println("\nManual do carro construído:\n" + carManual.print());
+        director = new Director(new FullContactBuilder());
+        director.construirContato("Andre", "Rua L", "548618861", "Andre@email.com");
+        FullContact contatoCompleto = (FullContact) director.obterContato();
+        System.out.println(contatoCompleto);
     }
-
 }
